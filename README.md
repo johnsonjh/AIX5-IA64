@@ -20,6 +20,8 @@ A modest collection of compiled software for **IBM AIX 5.1 for Itanium** (IA-64)
 
 * `gcc-3.1.1-1.tar.Z` depends on the GNU assembler (`gas`) included in the `binutils` package.  The *bootstrap* compiler is an experimental standalone cross-compiled variant useful for compiler development but not required for regular usage.
 
+* The `elvis` package is compiled with basic X11 support.  The required X11 system libraries are included in the default installation.
+
 ## Errata
 
 * `mksh-r59_20220928-1` has a bug affecting signal handling and delivery, primarily affecting interactive use; the cause is being investigated.
