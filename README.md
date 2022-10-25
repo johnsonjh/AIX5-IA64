@@ -24,4 +24,4 @@ A modest collection of compiled software for **IBM AIX 5.1 for Itanium** (IA-64)
 
 ## Errata
 
-* `mksh-r59_20220928-1` has a bug affecting signal handling and delivery, primarily affecting interactive use; the cause is being investigated.
+* `mksh-r59_20220928-1` has a bug affecting signal handling and delivery; the cause is under investigation.
