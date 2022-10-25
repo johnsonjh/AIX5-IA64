@@ -1,10 +1,10 @@
-# AIX5-IA64
+# AIX/IA64 Software Repository
 
 [Project Monterey runs again!](https://virtuallyfun.com/2022/09/24/ibm-aix-for-ia64-itanium-aka-project-monterey-runs-again/)
 
 ## Introduction
 
-This repository contains a modest collection of ready-to-run precompiled packages for **IBM AIX 5.1L for Itanium** (IA-64), previously known as [*Project Monterey*](https://en.wikipedia.org/wiki/Project_Monterey).
+This repository contains a modest collection of ready-to-run precompiled software packages for **IBM AIX 5.1L for Itanium** (IA-64), previously known as [*Project Monterey*](https://en.wikipedia.org/wiki/Project_Monterey).
 
 ## Overview
 
