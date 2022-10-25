@@ -2,7 +2,7 @@
 
 ## Introduction
 
-A modest collection of compiled software for **IBM AIX 5.1 for Itanium** (IA-64), previously known as [*Project Monterey*](https://en.wikipedia.org/wiki/Project_Monterey).
+A modest collection of compiled software for **IBM AIX 5.1L for Itanium** (IA-64), previously known as [*Project Monterey*](https://en.wikipedia.org/wiki/Project_Monterey).
 
 ## Overview
 
