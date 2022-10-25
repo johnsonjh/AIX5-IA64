@@ -16,7 +16,7 @@ A modest collection of compiled software for **IBM AIX 5.1 for Itanium** (IA-64)
 
 * Some binaries have been renamed to avoid conflicts (*e.g.* `gmake`) when the packaged tool is incompatible with the system tool.
 
-* Installation of the `ncurses` package is always recommended, since ncurses applications (*e.g.* `aclock`, `elvis`, `g`, *etc.*) will load terminal definitions at runtime.
+* Installation of the `ncurses` package is always recommended; `ncurses` applications (*e.g.* `aclock`, `elvis`, `g`, *etc.*) will load terminal definitions at runtime.
 
 * `gcc-3.1.1-1.tar.Z` depends on the GNU assembler (`gas`) included in the `binutils` package.  The *bootstrap* compiler is an experimental standalone cross-compiled variant useful for compiler development but not required for regular usage.
 
