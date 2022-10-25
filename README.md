@@ -6,15 +6,15 @@ A modest collection of compiled software for **IBM AIX 5.1 for Itanium** (IA-64)
 
 ## Overview
 
-* All packages extract to `./opt/freeware` and should be unpacked from the root (`/`) directory for installation.
+* All packages extract to '`./opt/freeware`' and may be unpacked from the root directory ('`/`') for installation.
 
-* Except where noted, libraries are built statically to avoid complex package interdependencies. 
+* All packages are built statically to avoid complex package interdependencies, unless otherwise indicated.
 
 ## Notes
 
-* Care has been taken to retain interoperability with the installed system tools; users who prefer a GNU shell environment may safely add `/opt/freeware/bin` to the start of their `PATH`.
+* Care has been taken to retain interoperability with the installed system tools; users who prefer a GNU-style shell environment may safely add `/opt/freeware/bin` to the start of their `PATH`.
 
-* Some binaries have been renamed to avoid conflicts (*e.g.* `gmake`) when the packaged tool is incompatible with the system tool.
+  * Some binaries have been renamed to avoid conflicts (*e.g.* `gmake`) when the packaged tool is incompatible with the system tool.
 
 * Installation of the `ncurses` package is always recommended; `ncurses` applications (*e.g.* `aclock`, `elvis`, `g`, *etc.*) will load terminal definitions at runtime.
 
