@@ -18,7 +18,7 @@ A modest collection of compiled software for **IBM AIX 5.1L for Itanium** (IA-64
 
 * Installation of the `ncurses` package is always recommended; `ncurses` applications (*e.g.* `aclock`, `elvis`, `g`, *etc.*) will load terminal definitions at runtime.
 
-* Shells inteded for interactive logins (*e.g.* `mksh`, `bash`, *etc.*) must be added to **both** `/etc/shells` and `/etc/security/login.cfg`.
+* Shells intended for interactive login use (*e.g.* `mksh`, `bash`, *etc.*) should be added to **both** `/etc/shells` and `/etc/security/login.cfg`.
 
 * `gcc-3.1.1-1.tar.Z` depends on the GNU assembler (`gas`) included in the `binutils` package.  The *bootstrap* compiler is an experimental standalone cross-compiled variant useful for compiler development but not required for regular usage.
 
