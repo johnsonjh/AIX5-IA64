@@ -24,4 +24,6 @@ A modest collection of compiled software for **IBM AIX 5.1L for Itanium** (IA-64
 
 ## Errata
 
+* `elm-ME+2.5.alpha60-1.tar.Z` requires the `elm` binary to be setgid `mail` for proper operation:
+  * As `root`: `chown root:mail /opt/freeware/bin/elm && chmod g+s /opt/freeware/bin/elm`
 * `mksh-r59_20220928-1` has a bug affecting signal handling and delivery; the cause is under investigation.
