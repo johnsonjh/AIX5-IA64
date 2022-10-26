@@ -62,7 +62,7 @@ All users of these packages should read the following notes:
      * As `root`: `/opt/freeware/sbin/sshd -E /var/tmp/ssh.log`.
   8. **No SRC service configuration is currently provided for the `sshd` daemon.**
      * SRC setup (documented elsewhere) is left as an excercise for the reader, *or*, 
-     * `sshd` may be started from from the standard `/etc/rc.local` script.
+     * `sshd` may be started from the standard `/etc/rc.local` startup script.
   
 ## Errata
 
