@@ -8,8 +8,8 @@ This repository contains a modest collection of ready-to-run precompiled softwar
 
 ## Overview
 
-* **These are AIX/IA64 (Itanium) packages!**  These packages ***do not run*** on "normal" (*POWER-based*) AIX systems.
-* All packages extract to '`./opt/freeware`' and may be unpacked from the root directory ('`/`') for site-wide installation.
+* **These are Itanium (IA-64) packages!**  They **will** ***not*** **work** on standard IBM POWER systems!
+* All packages extract to '`./opt/freeware`' and may be unpacked from the root directory ('`/`') for installation.
 * All packages are built statically to avoid complex package interdependencies, unless otherwise indicated.
 
 ## Notes
