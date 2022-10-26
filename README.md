@@ -94,5 +94,5 @@ While **no guarantees** are made, all packages are thoroughly tested, and the fo
 * And last, but not least, ***our compiler has many bugs.***
   * There is no currently **no** support for languages other than **C**.
   * All compiled executables **must** be comprehensively tested to ensure proper function.
-    * Successful compilation does **not** imply a working binary.
-    * We **strongly** recommended that only programs with high-coverage test suites be used.
+    * Successful compilation does **not** mean you have a working binary.
+    * Using automated tests with a high level of code coverage is encouraged.
