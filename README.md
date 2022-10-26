@@ -51,6 +51,10 @@ All users of these packages should read the following notes:
   5. **The security of the `sshd` daemon (and AIX/IA64 5.1L in general) is not guaranteed.**
      * The AIX/IA64 5.1L system should **not** be directly exposed to the Internet.
      * Use of a properly secured firewall and/or bastion/jump host is strongly recommended.
+  6. **Performance of the `sshd` daemon is lackluster.**  As a workaround:
+     * Avoid the `rsa` and `ecdsa` key algorithms;  use `ed25519` instead.
+     * Avoid the `3des` cipher; use `aes` (or `chacha20`) instead.
+     * Avoid the SSH compression feature.
   
 ## Errata
 
