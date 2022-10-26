@@ -41,7 +41,7 @@ All users of these packages should read the following notes:
   2. **utmp/wtmp/btmp is not updated by the sshd daemon.**  Use `ps` to view `sshd` logins as workaround:
      * `ps auxw | grep 'sshd: ' | grep -Ev '(^root|grep.*sshd: )'`
   3. **The `sshd` daemon requires an `sshd` user and group to be configured.**
-     * The `sshd` group must be primary.
+     * The `sshd` group must be the primary group of the `sshd` user.
      * The `sshd` user account must be locked, but with logins allowed.
      * The `sshd` user should be configured to use `/usr/bin/false` as the login shell.
        * `/usr/bin/false` **must** be configured as a valid login shell (in `/etc/shells` and `/etc/security/login.cfg`)
