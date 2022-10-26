@@ -62,7 +62,11 @@ While **no guarantees** are made, all packages are thoroughly tested, and the fo
 []()
 * `elm-ME+2.5.alpha60-1.tar.Z` requires the `elm` binary to be setgid `mail` for proper operation:
   * As `root`: `chown root:mail /opt/freeware/bin/elm && chmod g+s /opt/freeware/bin/elm`
-  
+
+[]()
+* `coreutils-9.1-1.tar.Z` provides GNU `sort`, which has a bug affecting `configure` scripts (https://github.com/johnsonjh/AIX5-IA64/issues/6).  As a workaround:
+  * Rename `sort` to `gsort`.  As root: `mv /opt/freeware/bin/sort /opt/freeware/bin/gsort`
+
 []()
 * `libressl-3.6.0-2.tar.Z` has the following two (`2`) known issues:
   1. The `vsyslog_r` function is missing. An empty stub may be used as a workaround:
