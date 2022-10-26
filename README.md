@@ -33,7 +33,7 @@ All users of these packages should read the following notes:
 
 ## OpenSSH
 
-`openssh-9.1p1-1.tar.Z` is available as an **experimental** package with the following limitations:
+`openssh-9.1p1-1.tar.Z` is now available as an **experimental** (but completely functional) package!  *Hooray*!
 
 []()
   1. **Only pubkey-based authentication is supported by the sshd daemon.**
@@ -60,6 +60,9 @@ All users of these packages should read the following notes:
      * Avoid the SSH compression feature.
   7. **Specify a log file path when starting the `sshd` daemon.**  For example:
      * As `root`: `/opt/freeware/sbin/sshd -E /var/tmp/ssh.log`.
+  8. **No SRC service configuration is currently provided for the `sshd` daemon.**
+     * SRC setup (documented elsewhere) is left as an excercise for the reader, *or*, 
+     * `sshd` may be started from from the standard `/etc/rc.local` script.
   
 ## Errata
 
