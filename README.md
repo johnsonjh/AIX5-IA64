@@ -40,6 +40,9 @@ All users of these packages should read the following notes:
      * All other authentication methods are currently unsupported.
   2. **utmp/wtmp/btmp is not updated by the sshd daemon.**  Use `ps` to view `sshd` logins as workaround:
      * `ps auxw | grep 'sshd: ' | grep -Ev '(^root|grep.*sshd: )'`
+       * The following shell aliases, while optional, may be useful:
+         * `alias w="w;ps auxw | grep 'sshd: ' | grep -Ev '(^root|grep.*sshd: )'"`
+         * `alias who="who;ps auxw | grep 'sshd: ' | grep -Ev '(^root|grep.*sshd: )'"`
   3. **The `sshd` daemon requires an `sshd` user and group to be configured.**
      * The `sshd` group must be the primary group of the `sshd` user.
      * The `sshd` user account must be locked, but with logins allowed.
