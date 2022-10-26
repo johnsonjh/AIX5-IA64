@@ -53,8 +53,10 @@ All users of these packages should read the following notes:
      * Use of a properly secured firewall and/or bastion/jump host is strongly recommended.
   6. **The performance of the `sshd` daemon is lackluster.**  As a workaround:
      * Avoid the `rsa` and `ecdsa` key algorithms;  use `ed25519` instead.
-     * Avoid the `3des` cipher; use `aes` (or `chacha20`) instead.
+     * Avoid the `3des` cipher; use `aes` or `chacha20` instead.
      * Avoid the SSH compression feature.
+  7. **Specify a log file path when starting the `sshd` daemon.**  For example:
+     * As `root`: `/opt/freeware/sbin/sshd -E /var/tmp/ssh.log`.
   
 ## Errata
 
