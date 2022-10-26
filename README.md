@@ -33,7 +33,7 @@ All users of these packages should read the following notes:
 
 ## OpenSSH
 
-`openssh-9.1p1-1.tar.Z` is now available as an **experimental** (but completely functional) package!  *Hooray*!
+`openssh-9.1p1-1.tar.Z` is available as an **experimental** (but extremely functional) package!  *Hooray*!
 
 []()
   1. **Only pubkey-based authentication is supported by the sshd daemon.**
