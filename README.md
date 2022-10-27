@@ -77,7 +77,7 @@ While **no guarantees** are made, all packages are thoroughly tested, and the fo
   * As `root`: `chown root:mail /opt/freeware/bin/elm && chmod g+s /opt/freeware/bin/elm`
 
 []()
-* `top-3.8beta1p1-2.tar.Z` requires the `top` binary to be setuid `root` for proper operation:
+* `top-3.8beta1p2-1.tar.Z` requires the `top` binary to be setuid `root` for proper operation:
   * As `root`: `chown root:system /opt/freeware/bin/top && chmod u+s /opt/freeware/bin/top`
 
 []()
