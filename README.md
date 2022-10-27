@@ -88,7 +88,7 @@ While **no guarantees** are made, all packages are thoroughly tested, and the fo
 
 []()
 * `libressl-3.6.0-2.tar.Z` has the following two (`2`) known issues:
-  1. The `vsyslog_r` function is missing. An empty stub may be used as a workaround:
+  1. The `vsyslog_r` function is missing (https://github.com/johnsonjh/AIX5-IA64/issues/14). An empty stub may be used as a workaround:
      * `void vsyslog_r(int pri, struct syslog_data *data, const char *fmt, va_list ap) {}`  
   2. LibreSSL headers normally include `stdint.h`, which is not available on stock AIX/IA64.  As a workaround:
      * Include `unistd.h` and/or `sys/types.h` in your application ahead of the LibreSSL headers.   
