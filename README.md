@@ -96,7 +96,7 @@ While **no guarantees** are made, all packages are thoroughly tested, and the fo
 
 []()
 * And last, but not least, ***our compiler has many bugs.***
-  * There is currently **no** debugger, and **no** support for languages other than C.  (https://github.com/johnsonjh/AIX5-IA64/issues/4).
+  * There is currently **no** debugger, and **no** support for languages other than C (https://github.com/johnsonjh/AIX5-IA64/issues/4).
   * All compiled executables **must** be comprehensively tested to ensure proper function.
     * Successful compilation does **not** mean you have a working binary.
     * Using automated tests with a high level of code coverage is *strongly* encouraged.
