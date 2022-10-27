@@ -80,8 +80,11 @@ While **no guarantees** are made, all packages are thoroughly tested, and the fo
   * As `root`: `chown root:system /opt/freeware/bin/top && chmod u+s /opt/freeware/bin/top`
 
 []()
-* `coreutils-9.1-1.tar.Z` provides GNU `sort`, which has a bug affecting `configure` scripts (https://github.com/johnsonjh/AIX5-IA64/issues/6).  As a workaround:
-  * Rename `sort` to `gsort`.  As `root`: `mv /opt/freeware/bin/sort /opt/freeware/bin/gsort`
+* `coreutils-9.1-1.tar.Z` has the following two (`2`) known issues:
+  1. GNU `sort` has a bug affecting `configure` scripts (https://github.com/johnsonjh/AIX5-IA64/issues/6).  As a workaround:
+     * Rename `sort` to `gsort`.  As `root`: `mv /opt/freeware/bin/sort /opt/freeware/bin/gsort`
+  2. GNU `ls` has a bug which causes numeric UIDs/GIDs to not be printed (https://github.com/johnsonjh/AIX5-IA64/issues/13).
+     * No workaround is available.  A fix will be included in the next release.
 
 []()
 * `libressl-3.6.0-2.tar.Z` has the following two (`2`) known issues:
