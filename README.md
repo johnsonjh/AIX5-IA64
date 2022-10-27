@@ -69,7 +69,8 @@ All users of these packages should read the following notes:
 While **no guarantees** are made, all packages are thoroughly tested, and the following issues have been identified:
 
 []()
-* `mksh-r59_20220928-1` has a bug affecting signal handling and delivery; a solution is being investigated.
+* `mksh-r59_20220928-1` has a bug affecting signal handling and delivery (https://github.com/johnsonjh/AIX5-IA64/issues/15).
+  * No workaround is available. The issue is currently under investigation. 
 
 []()
 * `elm-ME+2.5.alpha60-1.tar.Z` requires the `elm` binary to be setgid `mail` for proper operation:
