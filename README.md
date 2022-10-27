@@ -9,21 +9,21 @@ This repository contains a modest collection of ready-to-run precompiled softwar
 ## Overview
 
 * **These are Itanium (IA-64) packages!**  They **will** ***not*** **work** on standard IBM POWER systems!
-* All packages extract to '`./opt/freeware`' and may be unpacked from the root directory for installation.
+* All packages extract to `./opt/freeware` and may be unpacked from the root directory for installation.
 * All packages are built statically to avoid complex package interdependencies, unless otherwise indicated.
 
 ## Notes
 
 All users of these packages should read the following notes:
 
-* Care has been taken to retain interoperability with the installed system tools; users who prefer a GNU-style shell environment may safely add '`/opt/freeware/bin`' to the start of their `PATH`.
+* Care has been taken to retain interoperability with the installed system tools; users who prefer a GNU-style shell environment may safely add `/opt/freeware/bin` to the start of their `PATH`.
   * Some binaries have been renamed to avoid conflicts (*e.g.* `gmake`) when the packaged tool is incompatible with the system tool.
 
 []()
 * Installation of the `ncurses` package is always recommended; `ncurses` applications (*e.g.* `aclock`, `elvis`, `g`, *etc.*) will load terminal definitions at runtime.
 
 []()
-* Shells intended for interactive login use (*e.g.* `mksh`, `bash`, *etc.*) should be added to **both** '`/etc/shells`' and '`/etc/security/login.cfg`'.
+* Shells intended for interactive login use (*e.g.* `mksh`, `bash`, *etc.*) should be added to **both** `/etc/shells` and `/etc/security/login.cfg`.
 
 []()
 * `gcc-3.1.1-2.tar.Z` depends on the GNU assembler (`gas`) included in the `binutils` package.  The *bootstrap* compiler is an experimental standalone cross-compiled variant useful for compiler development but not required for regular usage.
