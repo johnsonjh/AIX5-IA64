@@ -95,8 +95,8 @@ While **no guarantees** are made, all packages are thoroughly tested, and the fo
      * Include `unistd.h` and/or `sys/types.h` in your application ahead of the LibreSSL headers.   
 
 []()
-* `jzip-borg-2.1p2-1.tar.Z` has a bug causing poor performance and dropped keystrokes (https://github.com/johnsonjh/AIX5-IA64/issues/7).
-  * No workaround is available. The issue is currently under investigation.
+* `jzip-borg-2.1p2-1.tar.Z` may drop keystrokes or have poor performance (https://github.com/johnsonjh/AIX5-IA64/issues/7).  As a workaround:
+  * This issue can only be replicated using a TELNET connection.  Use an SSH connection or a local console instead.
 
 []()
 * And last, but not least, ***our compiler has many bugs.***
